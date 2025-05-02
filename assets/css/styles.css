@@ -360,6 +360,12 @@ a:focus {
 .btn.btn-fill {
   background-color: #1bcfeb;
   color: #fff;
+  margin-left: 30px;
+}
+.btn.btn-fill:hover {
+  background-color: #fff; /* Fundo branco no hover */
+  color: #1bcfeb; /* Texto azul */
+  border: 2px solid #1bcfeb; /* Mantém a borda azul no hover */
 }
 
 .btn.left-icon .icon {
@@ -1721,28 +1727,50 @@ h6 {
   border-bottom-right-radius: 4px;
 }
 
+/* Efeito no hover do item do blog */
 .mh-blog .mh-blog-item:hover {
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Sombra para dar efeito de profundidade */
+  transform: translateY(-15px); /* Eleva o item um pouco */
 }
 
+/* Estilo do conteúdo dentro do item */
 .mh-blog .mh-blog-item .blog-inner {
   padding: 0px 20px;
   padding-bottom: 30px;
 }
 
+/* Estilo do título (link) */
 .mh-blog .mh-blog-item .blog-inner h2 a {
-  color: #fff;
+  color: #1ddbe1; /* Cor inicial */
+  font-weight: 600;
 }
 
+
+
+/* Estilo do link 'Ver Site' */
 .mh-blog .mh-blog-item .blog-inner a {
-  color: #1ddbe1;
+  color: #1ddbe1; /* Cor inicial do link */
+  text-decoration: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* Hover no link 'Ver Site' */
+.mh-blog .mh-blog-item .blog-inner a:hover {
+  background-color: #ffffff; /* Fundo branco */
+  color: #0ac4a7; /* Texto azul */
+}
+
+/* Estilo das imagens */
 .mh-blog .mh-blog-item img {
   margin-bottom: 30px;
 }
 
+/* Estilo do título principal */
 .mh-blog .mh-blog-item h2 {
   font-size: 24px;
   line-height: 32px;
@@ -1751,13 +1779,16 @@ h6 {
   color: #fff;
 }
 
+/* Título (link) do item */
 .mh-blog .mh-blog-item h2 a {
-  color:  #1ddbe1;
+  color: #078c91;
 }
 
+/* Hover no título do item */
 .mh-blog .mh-blog-item h2 a:hover {
   color: #0ac4a7;
 }
+
 
 .mh-blog .mh-blog-post-info .tag {
   border: 1px solid  #1ddbe1;
@@ -2146,9 +2177,17 @@ h6 {
   margin-top: 10px;
 }
 
+/* Estilo do item de endereço */
 .mh-footer-3 .mh-footer-address .mh-address-footer-item .each-info {
   padding-left: 40px;
   text-align: left;
+  transition: color 0.3s ease, transform 0.3s ease; /* Transição suave */
+}
+
+/* Hover no item de endereço */
+.mh-footer-3 .mh-footer-address .mh-address-footer-item .each-info:hover {
+  color: #0ac4a7; /* Cor do texto no hover */
+  transform: translateX(10px); /* Movimenta o item ligeiramente para a direita */
 }
 
 .mh-footer-3 .form-control {
