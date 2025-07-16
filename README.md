@@ -30,7 +30,7 @@ Este portfólio foi desenvolvido com as seguintes tecnologias:
 ---
 
 ## 📷 **Preview**
-![Preview do Portfólio](./assets/previaPort.jpeg))  
+![Preview do Portfólio](./assets/images/previaPort.jpeg))  
 
 ---
 
