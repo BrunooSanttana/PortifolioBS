@@ -22,16 +22,15 @@ Este portfólio foi desenvolvido com as seguintes tecnologias:
 ## 🎯 **Recursos do Portfólio**
 ✔ Design **Responsivo**  
 ✔ Seção **Sobre mim**  
-✔ Seção **Projetos com links para repositórios**  
-✔ Seção **Contato com links para redes sociais**
-✔ Seção **Experiência e trabalhos realizados** 
+✔ Seção **Projetos com links para repositórios**<br>
+✔ Seção **Contato com links para redes sociais**<br>
+✔ Seção **Experiência e trabalhos realizados**<br>
 ✔ Interface **Moderna e minimalista**  
 
 ---
 
 ## 📷 **Preview**
 ![Preview do Portfólio](./assets/previaPort.jpeg))  
-*(Você pode substituir por uma captura de tela do seu site real)*  
 
 ---
 
