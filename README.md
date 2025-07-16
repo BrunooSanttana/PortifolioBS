@@ -24,7 +24,7 @@ Este portfólio foi desenvolvido com as seguintes tecnologias:
 ✔ Seção **Sobre mim**  
 ✔ Seção **Projetos com links para repositórios**  
 ✔ Seção **Contato com links para redes sociais**
-✔ Seção **Experiência e trabalhos realizados**  
+✔ Seção **Experiência e trabalhos realizados** 
 ✔ Interface **Moderna e minimalista**  
 
 ---
