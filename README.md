@@ -30,10 +30,10 @@ Este portfólio foi desenvolvido com as seguintes tecnologias:
 ---
 
 ## 📷 **Preview**
-![Preview do Home](./assets/images/previaPort.jpeg))
-![Preview do Sobre](./assets/images/previaSobre.jpeg))  
-![Preview do Projetos](./assets/images/previaProjetos.jpeg))  
-![Preview do Contato](./assets/images/previaConato.jpeg))  
+![Preview do Home](./assets/images/previaPort.jpeg)
+![Preview do Sobre](./assets/images/previaSobre.jpeg)
+![Preview do Projetos](./assets/images/previaProjetos.jpeg)
+![Preview do Projetos](./assets/images/previaContato.jpeg)
 
 
 ---
