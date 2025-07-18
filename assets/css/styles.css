@@ -1604,6 +1604,51 @@ h6 {
       EXPERIENCES
     ==============
 */
+
+.experience-section {
+    background: #1F1E24;
+    padding: 60px 0;
+    color: #333;
+}
+
+.experience-section h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #19ACC3;
+}
+
+.education-item, .experience-item {
+    background: #100E17;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.education-item h4, .experience-item h4 {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.education-item span.year, .experience-item span.year {
+    display: block;
+    font-size: 14px;
+    color: #777;
+}
+
+.education-item ul, .experience-item ul {
+    padding-left: 20px;
+}
+
+.experience-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+.experience-item a:hover {
+    text-decoration: underline;
+}
+
 .mh-experince h3 {
   font-size: 30px;
   line-height: 40px;
