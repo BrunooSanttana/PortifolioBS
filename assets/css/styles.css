@@ -619,9 +619,11 @@ ul li {
 }
 
 .section-separator {
-  padding: 60px 0;
-  padding-top: 100px;
+  padding: 80px 0;
+  border-top: 1px solid rgba(28, 198, 205, 0.2);
+  border-bottom: 1px solid rgba(28, 198, 205, 0.2);
 }
+
 
 .home-section-separator {
   padding-top: 100px;
@@ -717,11 +719,6 @@ button:focus {
   border-radius: 50%;
 }
 
-.form-control {
-  padding: 20px;
-  -webkit-box-shadow: 0 0px 2px 0 rgba(255, 255, 255, 0.8), 0 0px 1px 1px rgba(255, 255, 255, 0.8);
-  box-shadow: 0 0px 2px 0 rgba(255, 255, 255, 0.8), 0 0px 1px 1px rgba(255, 255, 255, 0.8);
-}
 
 .form-control:focus {
   -webkit-box-shadow: 0 0px 2px 0 rgba(255, 255, 255, 0.8), 0 0px 1px 1px rgba(255, 255, 255, 0.8);
@@ -1172,7 +1169,7 @@ h6 {
 }
 
 .home-padding {
-  padding: 180px 0;
+  padding: 220px 0 160px;
 }
 
 /*
@@ -1190,24 +1187,24 @@ h6 {
 }
 
 .mh-home-2 .mh-header-info .hero-img img {
-  border: 0px solid #fff;
+  border: 3px solid rgba(28, 198, 205, 0.4);
   border-radius: 50%;
+  box-shadow: 0 0 25px rgba(28, 198, 205, 0.25);
 }
 
+
 .mh-home-2 .mh-header-info h2 {
-  font-size: 50px;
-  font-weight: 600;
-  line-height: 60px;
-  margin-top: 10px;
-  margin-bottom: 0px;
-  opacity: 0.9;
+  font-size: 54px;
+  font-weight: 700;
+  color: #1CC6CD;
+  text-shadow: 0 0 15px rgba(28, 198, 205, 0.3);
 }
 
 .mh-home-2 .mh-header-info h4 {
-  font-size: 18px;
-  line-height: 30px;
-  margin-bottom: 20px;
-  opacity: 0.9;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  opacity: 0.85;
 }
 
 .mh-home-2 .mh-header-info p {
@@ -1259,32 +1256,34 @@ h6 {
 }
 
 .mh-home .mh-header-info .mh-promo span {
-  background-color: #1ddbe1;
-  ;
+  background-color: #1CC6CD;
+  color: #fff;
   font-size: 14px;
-  line-height: 24px;
+  font-weight: 600;
   letter-spacing: 1px;
-  font-weight: bold;
-  padding: 10px 30px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 0px;
+  padding: 10px 28px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(28, 198, 205, 0.4);
 }
+
 
 .mh-home .mh-header-info h2 {
-  font-size: 60px;
-  font-weight: 600;
-  line-height: 65px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 72px;
+  color: #fff;
+  text-shadow: 0 0 15px rgba(28, 198, 205, 0.3);
 }
 
+
 .mh-home .mh-header-info h4 {
-  font-size: 26px;
-  line-height: 34px;
-  margin-bottom: 30px;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #a8a8a8;
+  margin-bottom: 25px;
 }
+
 
 .mh-home .mh-header-info ul {
   margin-top: 20px;
@@ -1334,6 +1333,13 @@ h6 {
   padding: 0;
   margin-right: 0;
   border-radius: 50%;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.mh-home .mh-header-info .social-icon li a:hover {
+  color: #1CC6CD;
+  transform: translateY(-3px);
 }
 
 .mh-home .hero-img {
@@ -1344,12 +1350,11 @@ h6 {
 }
 
 .mh-home .hero-img img {
-  margin: 0 auto;
-  float: none;
-  text-align: center;
-  border: 20px solid rgba(0, 0, 0, 0.17);
+  border: 3px solid rgba(28, 198, 205, 0.4);
   border-radius: 50%;
+  box-shadow: 0 0 30px rgba(28, 198, 205, 0.25);
 }
+
 
 .mh-home .img-border {
   height: 400px;
@@ -1368,6 +1373,11 @@ h6 {
   margin: 0 auto;
 }
 
+.section-title-blue h2 {
+  color: #1cc6cd;
+}
+
+
 /*
     ==============
        ABOUT
@@ -1378,13 +1388,20 @@ h6 {
 }
 
 .mh-about .mh-about-inner h2 {
-  margin-bottom: 20px;
-  margin-top: 20px;
+  font-size: 42px;
+  font-weight: 700;
+  color: #1CC6CD;
+  margin-bottom: 25px;
 }
 
+
 .mh-about .mh-about-inner p {
+  color: #cfcfcf;
+  font-size: 15px;
+  line-height: 1.8;
   margin-bottom: 30px;
 }
+
 
 .mh-about .mh-about-inner .btn {
   margin-top: 20px;
@@ -1419,6 +1436,7 @@ h6 {
   border: 1px solid #1ddbe1; /* contorno azul */
   transition: 0.3s;
   background-color: #020202;
+  border: 1px solid #1CC6CD;
 }
 
 .mh-about-tag ul li:hover {
@@ -1598,6 +1616,8 @@ h6 {
     width: 0;
   }
 }
+
+
 /* ==========================
    EXPERIÊNCIAS E EDUCAÇÃO
 ========================== */
@@ -1669,6 +1689,7 @@ h6 {
   color: #1ddbe1;
   text-decoration: underline;
 }
+
 
 
 /*
