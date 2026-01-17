@@ -163,33 +163,7 @@
   */
   $('#portfolio-item').mixItUp();
 
-  /*
-  |=================
-  | Client review
-  |================
-  */
-  $('#mh-client-review').owlCarousel({
-    loop: false,
-    responsiveClass: true,
-    nav: true,
-    autoplay: false,
-    smartSpeed: 450,
-    stopOnHover: true,
-    animateIn: 'slideInRight',
-    animateOut: 'slideOutLeft',
-    autoplayHoverPause: true,
-    responsive: {
-      0: {
-        items: 1,
-      },
-      768: {
-        items: 2,
-      },
-      1170: {
-        items: 3,
-      }
-    }
-  });
+
 
   /*
   |=================
@@ -251,36 +225,7 @@
     }
   });
 
-  /*
-  |=================
-  | Project review slide
-  |================
-  */
-  $('.mh-single-project-slide-by-side').owlCarousel({
-    loop: false,
-    responsiveClass: true,
-    nav: true,
-    navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-    dots: false,
-    autoplay: false,
-    smartSpeed: 450,
-    stopOnHover: true,
-    animateIn: 'slideInRight',
-    animateOut: 'slideOutLeft',
-    autoplayHoverPause: true,
-    pagination: false,
-    responsive: {
-      0: {
-        items: 1,
-      },
-      768: {
-        items: 1,
-      },
-      1170: {
-        items: 1,
-      }
-    }
-  });
+
 
   /*
   |=================
